@@ -1,0 +1,5 @@
+.config/go/*
+.config/pulse/*
+.config/qBittorrent/*
+.config/systemd/*
+.config/user-dirs.*

@@ -1,12 +1,13 @@
 {
     "layer": "top",
     "position": "top",
-    "height": 30,
+    "height": "",
+    "reload_style_on_change": true,
     "spacing": 5,
 
-    "modules-left": ["hyprland/workspaces", "temperature"],
-    "modules-center": ["clock"],
-    "modules-right": ["wireplumber", "memory", "bluetooth"],
+    "modules-left": ["hyprland/workspaces"],
+    "modules-center": [],
+    "modules-right": ["wireplumber", "temperature", "cpu", "memory", "clock"],
 
     "hyprland/workspaces": {
         "format": "<span size='larger'>{icon}</span>",
@@ -39,13 +40,17 @@
 
     "memory": {
         "interval": 30,
-        "format": "\uf4bc  {used:0.1f}G"
+        "format": "  {used:0.1f}G"
     },
 
     "temperature": {
         "format": "{temperatureC}°C"
     },
-
+    
+    "cpu": {
+		"tooltip": true,
+		"format": "  {usage}%"
+    },
     "network": {
         "format": "",
         "format-ethernet": "\udb83\udc9d",
