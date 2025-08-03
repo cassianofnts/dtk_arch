@@ -1,5 +1,9 @@
 .config/go/*
 .config/pulse/*
 .config/qBittorrent/*
+.config/discord/*
 .config/systemd/*
 .config/user-dirs.*
+.config/spotify/*
+.config/htop/*
+.config/nvim/*
